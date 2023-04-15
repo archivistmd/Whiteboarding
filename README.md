@@ -1,6 +1,8 @@
 ### Functional Whiteboarding
 
-Whiteboarding project for week 15 independent project
+By: Mesha Devan
+
+Whiteboarding project for week 15 independent project for Epicodus. Solving an assigned prompt with in the parameters given.
 
 ## Prompt
 
