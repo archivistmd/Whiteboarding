@@ -1,0 +1,23 @@
+// Checking for uniqueness
+
+// Write an algorithm to identify unique characters
+// - cannot convert to an Array
+// - must return a Boolean
+
+// input: "hello"
+// output: false
+
+// input: "copyright"
+// output: true
+
+function areCharactersUnique (str)
+{
+  //If we two characters repeat, false
+  for(let i = 0; i < str.length; i++)
+    for(let j = i + 1; j < str.length; j++)
+    if (str[i] == str[j])
+      return false;
+
+      //If no duplicate characters, return true
+      return true
+}
